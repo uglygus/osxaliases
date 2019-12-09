@@ -6,7 +6,7 @@
 ## About
 Mac OSX aliases are not symbolic links. Trying to read one will probably crash your code.
 
-####public functions:
+###public functions:
 
 `is_alias(path)` Returns true if a file is an OSX alias, false otherwise.
 
