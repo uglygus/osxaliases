@@ -6,7 +6,7 @@
 ## About
 Mac OSX aliases are not symbolic links. Trying to read one will probably crash your code.
 
-#### public functions:
+#### public functions
 
 `is_alias(path)` Returns true if a file is an OSX alias, false otherwise.
 
@@ -14,7 +14,7 @@ Mac OSX aliases are not symbolic links. Trying to read one will probably crash y
 
 `resolve_osx_alias(path)` Returns the full path of the file pointed to by the alias.
 
-#### commandline:
+#### commandline
 When run from command line accept one argument, an alias, and resolve it.
 
 Based on this blog post and code by : Scott H. Hawley:
