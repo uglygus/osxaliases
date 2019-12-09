@@ -7,6 +7,7 @@
 Mac OSX aliases are not symbolic links. Trying to read one will probably crash your code.
 
 ####public functions:
+
 `is_alias(path)` Returns true if a file is an OSX alias, false otherwise.
 
 `create_osx_alias(filename, aliasname)` creates an alias pointing to file.
