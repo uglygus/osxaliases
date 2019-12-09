@@ -1,4 +1,4 @@
-#osxaliases.py
+# osxaliases.py
 
 ### Create, manipulate and resolve Mac OS X aliases.
 
